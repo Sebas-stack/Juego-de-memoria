@@ -1,0 +1,22 @@
+.altura{
+    height: 150px !important;
+    border-radius: 15px;
+}
+
+.tablero div img:hover{
+    transform: scale(1.1);
+    /* box-shadow: 10px 10px 8px 10px #888888; */
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+
+}
+.fondo1,.fondo2,.fondo3{
+    background-image: url("imagenes/fondo1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.fondo2{
+    background-image: url("imagenes/fondo2.jpg");
+}
+*{
+    background-color: aquamarine;
+}
